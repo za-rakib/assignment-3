@@ -1,5 +1,7 @@
-/* Kilometer To Meter */
+//https://github.com/za-rakib/assignment-3
 
+
+/* Kilometer To Meter */
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     if (meter < 0) {
@@ -10,8 +12,8 @@ function kilometerToMeter(kilometer) {
 var result = kilometerToMeter(10);
 console.log(result);
 
-/*Budget Calculator*/
 
+/*Budget Calculator*/
 function budgetCalculator(watch, phone, laptop) {
 
     var watchPrice = watch * 50;
@@ -32,8 +34,8 @@ function budgetCalculator(watch, phone, laptop) {
 var result = budgetCalculator(2, 1, 1);
 console.log(result);
 
-/*Hotel Cost*/
 
+/*Hotel Cost*/
 function hotelCost(days) {
     var cost = 0;
     if (days < 0) {
@@ -60,8 +62,8 @@ function hotelCost(days) {
 var result = hotelCost(25);
 console.log(result);
 
-/*Mega Friend*/
 
+/*Mega Friend*/
 function megaFriend(friendsName) {
     var maxlenName = friendsName[0];
     if (friendsName.length < 2) {
